@@ -1,0 +1,23 @@
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+ 
+    .navbar-brand img{
+        margin-left: 20px;
+    }    
+ .navbar-light .navbar-toggler {
+    border-color: red;
+    margin-right:10px; 
+}
+    .navbar-nav .nav-item.active .nav-link,
+    .navbar-nav .nav-item .nav-link{
+    background-color: green;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    padding:10px;    
+    margin-right: 0px;    
+}
+    
+}
